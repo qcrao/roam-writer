@@ -1,0 +1,16 @@
+{
+  "name": "roam-writer",
+  "version": "0.1.0",
+  "description": "Immersive writing modes for Roam Research: removes the right-side dead zone and adds iA Writer / Typora / Paper / Night styles with focus dimming and typewriter scrolling.",
+  "type": "module",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
