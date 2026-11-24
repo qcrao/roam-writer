@@ -6,7 +6,9 @@ Immersive writing modes for [Roam Research](https://roamresearch.com). Writer re
 
 ![Writer demo: five writing modes, the mode menu and the dead-zone fix](https://raw.githubusercontent.com/qcrao/roam-writer/main/assets/demo.gif)
 
-[![Watch the 36-second video](https://raw.githubusercontent.com/qcrao/roam-writer/main/assets/video-poster.png)](https://github.com/qcrao/roam-writer/raw/main/assets/writer-promo.mp4)
+https://github.com/user-attachments/assets/ad4c8e60-68d1-4b48-954c-0485b51a3299
+
+<sub>Video not playing (e.g. inside Roam Depot)? [Watch the 36-second video](https://github.com/qcrao/roam-writer/raw/main/assets/writer-promo.mp4).</sub>
 
 ## Why
 
