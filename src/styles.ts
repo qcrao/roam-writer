@@ -78,9 +78,13 @@ html.rw-on.rw-typo .roam-article .rm-heading-level-3 > .rm-block-main textarea.r
   font-size: calc(var(--rw-size) * 1.15) !important; font-weight: 600;
 }
 /* Typora（GitHub 主题）：一、二级标题带下划线 */
-html.rw-on[data-rw-mode="typora"] .roam-article .rm-heading-level-1 > .rm-block-main,
-html.rw-on[data-rw-mode="typora"] .roam-article .rm-heading-level-2 > .rm-block-main {
-  border-bottom: 1px solid #eee;
+/* 线画在文字区（而非整行），否则会向左多出 bullet 那 40px */
+html.rw-on[data-rw-mode="typora"] .roam-article .rm-heading-level-1 > .rm-block-main > .rm-block__input,
+html.rw-on[data-rw-mode="typora"] .roam-article .rm-heading-level-1 > .rm-block-main > .rm-autocomplete__wrapper,
+html.rw-on[data-rw-mode="typora"] .roam-article .rm-heading-level-2 > .rm-block-main > .rm-block__input,
+html.rw-on[data-rw-mode="typora"] .roam-article .rm-heading-level-2 > .rm-block-main > .rm-autocomplete__wrapper {
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
   margin-bottom: 0.4em;
 }
 
